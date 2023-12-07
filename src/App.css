@@ -46,7 +46,7 @@ p{
 /* offcanvas */
 .offcanvas{
     color: #fff;
-    background: rgba(0,0,0,.8);
+    background: rgba(0,0,0,.6);
 }
 
 @media screen and (max-width:600px) {
