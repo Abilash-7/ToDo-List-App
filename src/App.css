@@ -1,0 +1,67 @@
+.navbar{
+    background-color: #12B8AE;
+    color: #000;
+}
+p{
+    font-weight: 600;
+    font-size: 1.2em;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus{
+    outline: none;
+    box-shadow: none;
+}
+.task{
+    background-color:#12B8AE;
+}
+
+.title{
+    font-weight: 600;
+}
+/* input */
+.btn{
+    background: #12b8ae;   
+    color: #fff;
+}
+.btn:hover{
+    border: 2px solid #12b8ae;
+    background-color: #000;
+    color: #fff;
+}
+.btn:focus,
+.btn:active{
+    outline: none;
+}
+/* tasks */
+.tasks{
+    background: rgba(255,255,255,.1);
+  
+}
+
+/* comleted */
+.completed{
+    background: rgba(255,255,255,.1);
+}
+/* offcanvas */
+.offcanvas{
+    color: #fff;
+    background: rgba(0,0,0,.8);
+}
+
+@media screen and (max-width:600px) {
+    
+    .navbar{
+        padding:20px 0px ;
+    }
+    p{
+        font-size: .6em;
+        font-weight: 600;
+    }
+    .btn{
+        margin: 0px 3px;
+    }
+    .offcanvas-body p{
+        font-size: 1.2em;
+    }
+}
