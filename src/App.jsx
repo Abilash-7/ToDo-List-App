@@ -113,7 +113,7 @@ const App = () => {
             </div>
             <div className="col-6 p-3 text-center d-flex text-white">
               <h1 className='display-1'>{time(date)}</h1>
-              <h3 style={{color:"#12b8ae"}} className='m-auto'>{AmPm}</h3>
+              <h3 style={{color:"#12b8ae"}} className='my-auto'>{AmPm}</h3>
             </div>
         </div>
         
